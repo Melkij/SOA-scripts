@@ -64,12 +64,12 @@ if (isset($_POST['button']) && isset($_POST['add'])) {
 	<meta http-equiv="content-type" content="text/html;charset=utf-8">
 	<script type="text/javascript">
 	function torgadd() {
-		document.getElementById("addtotorg").innerHTML += "<input type='hidden' name='add[]' value=\"" +\
-			document.formb.list.value + ":" +\
-			document.formb.min.value + ":" +\
-			document.formb.max.value + "\">"+\
+		document.getElementById("addtotorg").innerHTML += "<input type='hidden' name='add[]' value=\"" +
+			document.formb.list.value + ":" +
+			document.formb.min.value + ":" +
+			document.formb.max.value + "\">"+
 			document.formb.list.options[document.formb.list.selectedIndex].text + " в количестве от "+
-			document.formb.min.value + " до " +\
+			document.formb.min.value + " до " +
 			document.formb.max.value + "<br>";
 		}
 	</script>
